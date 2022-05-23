@@ -1,0 +1,50 @@
+.continer{
+    width: 600px;
+    height: 700px;
+    position: absolute;
+}
+.sky{
+    background-color: aquamarine;
+    width: 500px;
+    height: 600px;
+    position:absolute;
+}
+.ground{
+    margin-top: 600px;
+    background-color: brown;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+}
+.bird{
+    background-image: url("flappy-bird.png");
+    background-color: yellow;
+    position:absolute;
+    width: 50px;
+    height: 40px;
+}
+.beam1{
+    background-image: url("flappybird-pipe.png");
+    transform: rotate(180deg);
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    
+}
+.beam2{
+    background-image: url("flappybird-pipe.png");
+    position: absolute;
+    width: 50px;
+    height: 300px;
+   
+}
+.word{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    z-index: 2;
+}
+.count{
+    display: block;
+    text-align: center;
+}
